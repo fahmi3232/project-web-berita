@@ -44,36 +44,37 @@ const FooterComp = () => {
           <Col md={2} xs={4}>
             <h5>Kategori</h5>
                 <ul >
-                    <a style={style} href=""><li>News</li></a>
-                    <a style={style} href=""><li>Edukasi</li></a>
-                    <a style={style} href=""><li>Finance</li></a>
-                    <a style={style} href=""><li>Technology</li></a>
+                    <li><a style={style} href="">News</a></li>
+                    <li><a style={style} href="">Edukasi</a></li>
+                    <li><a style={style} href="">Finance</a></li>
+                    <li><a style={style} href="">Technology</a></li>
                 </ul>
           </Col>
           <Col md={2} xs={4}>
             <h5>Layanan</h5>
             <ul >
-                    <a style={style} href=""><li>Forum</li></a>
-                    <a style={style} href=""><li>AdsMart</li></a>
-                    <a style={style} href=""><li>Event</li></a>
+                    <li><a style={style} href="">News</a></li>
+                    <li><a style={style} href="">Edukasi</a></li>
+                    <li><a style={style} href="">Finance</a></li>
+                    <li><a style={style} href="">Technology</a></li>
                 </ul>
           </Col>
           <Col md={2} xs={4}>
             <h5>Informasi</h5>
             <ul >
-                    <a style={style} href=""><li>Redaksi</li></a>
-                    <a style={style} href=""><li>Pedoman Media</li></a>
-                    <a style={style} href=""><li>Karir</li></a>
-                    <a style={style} href=""><li>Kotal Pos</li></a>
+            <li><a style={style} href="">News</a></li>
+                    <li><a style={style} href="">Edukasi</a></li>
+                    <li><a style={style} href="">Finance</a></li>
+                    <li><a style={style} href="">Technology</a></li>
                 </ul>
           </Col>
           <Col md={2} xs={4}>
           <h5>Contact</h5>
           <ul >
-                    <a style={style} href=""><li>News</li></a>
-                    <a style={style} href=""><li>Edukasi</li></a>
-                    <a style={style} href=""><li>Finance</li></a>
-                    <a style={style} href=""><li>Technology</li></a>
+          <li><a style={style} href="">News</a></li>
+                    <li><a style={style} href="">Edukasi</a></li>
+                    <li><a style={style} href="">Finance</a></li>
+                    <li><a style={style} href="">Technology</a></li>
                 </ul>
           </Col>
         </Row>

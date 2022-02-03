@@ -1,14 +1,13 @@
 import React from "react";
 import { Col, Container, Row, Navbar, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faInstagram,
   faYoutube,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from '../logo.png'
+import Logo from '../logo.png'
 
 const IconComp = () => {
   return (
@@ -30,7 +29,7 @@ const IconComp = () => {
           </Col>
           <Col md={6}>
             <img
-              src={logo}
+              src={Logo}
               width={200}
             />
           </Col>

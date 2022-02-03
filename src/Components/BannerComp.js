@@ -6,7 +6,6 @@ import {
   Row,
   Carousel,
   Card,
-  Button,
   Navbar,
   Nav,
 } from "react-bootstrap";
@@ -78,7 +77,7 @@ const BannerComp = () => {
                   {topData.map((data, index) => {
                     return (
                       <Carousel.Item>
-                        <a href={data.url} target="_blank">
+                        <a href={data.url}>
                           <img
                             src={data.urlToImage}
                             alt="First slide"

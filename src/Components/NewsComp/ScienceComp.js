@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { Col, Container, Row, Card} from "react-bootstrap";
 import SportsComp from "./SportsComp";
 
 const ScienceComp = () => {

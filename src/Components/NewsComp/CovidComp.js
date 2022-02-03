@@ -1,6 +1,5 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import React from "react";
+import { Col, Container, Row, Card} from "react-bootstrap";
 import CovidModalComp from "./CovidModalComp";
 
 const CovidComp = () => {

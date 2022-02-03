@@ -28,7 +28,7 @@ const CarouselComp = () => {
               {data.map((dat, index) => {
                 return (
                   <Carousel.Item>
-                    <a href={dat.url} target="_blank">
+                    <a href={dat.url}>
                       <img
                         src={dat.urlToImage}
                         alt="First slide"
