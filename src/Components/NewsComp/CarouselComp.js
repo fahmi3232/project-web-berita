@@ -8,7 +8,7 @@ const CarouselComp = () => {
   const getData = async () => {
     try {
       let respon = await axios.get(
-        "https://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=0a6a63c9b36a45bc9e6cbc41a2e2bd99"
+        "https://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=805b76e7218f42e5a6775a497603e269"
       );
       setData(respon.data.articles);
     } catch (e) {

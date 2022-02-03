@@ -17,7 +17,7 @@ const BannerComp = () => {
   const getTopData = async () => {
     try {
       let resp = await axios.get(
-        "https://newsapi.org/v2/top-headlines?country=id&apiKey=0a6a63c9b36a45bc9e6cbc41a2e2bd99"
+        "https://newsapi.org/v2/top-headlines?country=id&apiKey=805b76e7218f42e5a6775a497603e269"
       );
       setTop(resp.data.articles);
     } catch (e) {
